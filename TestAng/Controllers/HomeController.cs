@@ -6,10 +6,12 @@ using System.Web.Mvc;
 
 namespace TestAng.Controllers
 {
-
+    /// <summary>
+    /// new class added for index controller
+    /// </summary>
     public class HomeController : Controller
     {
-          public ActionResult Index()
+        public ActionResult Index()
         {
             return View();
         }
